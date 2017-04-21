@@ -1,0 +1,18 @@
+name: gnx
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy
+  - scipy
+  - pandas
+  - jupyter
+  - nbstripout
+  - seaborn
+  - tensorflow=1.0.0
+  - scikit-learn
+  - pip:
+    - setuptools
+    - scikit-optimize
+    - keras==2.0.2
+    - networkx
